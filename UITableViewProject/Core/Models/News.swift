@@ -15,9 +15,7 @@ struct News: Decodable {
         df.locale = Locale(identifier: "en_EN")
         return df
     }()
-
-    let articles: [Article]
-
+    
     struct Article: Decodable {
         let author, title, description, publishedAt: String
 
@@ -29,4 +27,6 @@ struct News: Decodable {
             case author, title, description, publishedAt
         }
     }
+
+    let articles: [Article]
 }
