@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StaticNewsViewController.swift
 //  UITableViewProject
 //
 //  Created by Саидов Тимур on 18.02.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class DynamicNewsViewController: UIViewController {
+final class StaticNewsViewController: UIViewController {
     
     private lazy var jsonDecoder: JSONDecoder = {
         return JSONDecoder()
